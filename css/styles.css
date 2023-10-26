@@ -352,6 +352,7 @@ main {
   height: 300px;
   border: 2px solid #ede9e9;
   cursor: pointer;
+  transition: 0.5s ease all;
 }
 
 .projects:nth-child(1) {
@@ -374,6 +375,16 @@ main {
   background-position: center;
   background-size: cover;
   filter: blur(2px);
+}
+
+.projects:nth-child(4) {
+  background-image: url(../imgs/githuAPI-project.png);
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+.projects:hover {
+  filter: none;
 }
 
 /* PING-PONG */

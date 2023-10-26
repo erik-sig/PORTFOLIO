@@ -39,7 +39,12 @@ modalContainer.addEventListener("click", () => {
   modalContainer.style.display = "none";
 });
 
-projectsArray = ["todo-project", "car-project", "films-project"];
+projectsArray = [
+  "todo-project",
+  "car-project",
+  "films-project",
+  "github-project",
+];
 
 projects.forEach((project) => {
   project.addEventListener("click", (e) => {
@@ -84,6 +89,14 @@ projects.forEach((project) => {
               "href",
               "https://site-filmes-luwp27y0e-erik-sig.vercel.app"
             );
+        if (choiceProject == "github-project")
+          if (choice.textContent == "Repositório")
+            choice.setAttribute(
+              "href",
+              "https://github.com/erik-sig/GitHubAPI"
+            );
+          else
+            choice.setAttribute("href", "https://git-hub-api-gamma.vercel.app");
       });
     });
   });
