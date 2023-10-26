@@ -324,12 +324,6 @@ main {
   flex-direction: column;
 }
 
-.skills-imgs i:last-child::after {
-  content: "(estudando)";
-  margin-top: 1rem;
-  font-size: 10px;
-}
-
 /* PROJECTS */
 
 .projects-text-container {
