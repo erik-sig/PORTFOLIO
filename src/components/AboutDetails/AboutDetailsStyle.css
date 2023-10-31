@@ -1,0 +1,17 @@
+.details {
+  animation: blink-animation 1s linear both;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details > h1 {
+  font-size: 30px;
+}
+
+.details > p {
+  color: #ede9e9;
+  font-size: 20px;
+}

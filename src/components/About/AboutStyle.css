@@ -1,0 +1,46 @@
+.about-container {
+  text-align: center;
+  padding: 10rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #ede9e9;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.skills-container h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 5rem;
+}
+
+.skills-imgs i {
+  cursor: pointer;
+}
+
+.skills-imgs i:hover {
+  animation: hover-animation 800ms infinite;
+}
+
+.details {
+  height: 20vh;
+  padding: 1rem;
+}

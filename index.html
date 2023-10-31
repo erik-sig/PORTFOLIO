@@ -1,128 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
-    <script src="js/main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./imgs/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./imgs/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <aside>
-        <h2>DESENVOLVEDOR</h2>
-    </aside>
-    <article class="links">
-        <a href="https://www.linkedin.com/in/erik-signori-thalheimer-b0375b20a" target="_blank">
-            <div class="linkedin">
-
-                <i class="bi bi-linkedin adjust-icons"></i>
-                <p>erik st</p>
-            </div>
-        </a>
-        <a href="https://github.com/erik-sig" target="_blank">
-            <div class="github">
-                <i class="bi bi-github adjust-icons"></i>
-                <p>erik-sig</p>
-            </div>
-        </a>
-    </article>
-
-    <article class="modal-container">
-        <div class="modal-options">
-            <a target="_blank" class="modal-btn">Repositório</a>
-            <a target="_blank" class="modal-btn">Site</a>
-        </div>
-    </article>
-
-    <nav>
-        <div class="items">
-            <a class="menu-items" href="#home">
-                <h2>Home</h2>
-            </a>
-            <a class="menu-items" href="#projects">
-                <h2>Projetos</h2>
-            </a>
-            <a class="menu-items" href="#about">
-                <h2>Sobre</h2>
-            </a>
-        </div>
-        <div class="items-mobile">
-            <a href="https://www.linkedin.com/in/erik-signori-thalheimer-b0375b20a" target="_blank">
-                <i class="bi bi-linkedin adjust-icons"></i>
-            </a>
-            <a href="https://github.com/erik-sig" target="_blank">
-                <i class="bi bi-github adjust-icons"></i>
-            </a>
-            <a class="menu">
-                <div class="menu-bar1"></div>
-                <div class="menu-bar2"></div>
-                <div class="menu-bar3"></div>
-            </a>
-        </div>
-    </nav>
-    <main>
-        <section class="home-section container hide" id="home">
-            <figure class="home-imgs">
-                <img src="imgs/aliens.png" alt="invaders" id="aliens-img">
-                <img src="imgs/ship.png" alt="ship" id="ship-img">
-            </figure>
-            <div class="home-text-container">
-                <h1 class="title">FRONTEND DEVELOPER</h1>
-                <h2 class="subtitle">Erik Signori Thalheimer</h2>
-                <div class="home-text">
-                    <p>Amante de tecnologia e principalmente curioso, tento desventar os mistérios de como tudo evolui
-                        na
-                        internet aprendendo eu mesma sobre ela. Isso explica o porque eu estou amando e aprendendo muito
-                        sendo desenvolvedor frontend e adoraria compartilhar isso com você.</p>
-                </div>
-            </div>
-        </section>
-        <article class="ping-pong container hide">
-            <div class="bar1"></div>
-            <div class="ball"></div>
-            <div class="bar2"></div>
-        </article>
-        <section class="about-container container hide" id="about">
-            <h1 class="title">SOBRE MIM</h1>
-            <p class="text">Venho de alguns meses de estudos, até porque tive que trancar minha faculdade de
-                engenharia da
-                computação, logo tive mais tempo para me concentrar, praticar e aprender mais ainda. As principais
-                tecnologias são:</p>
-            <div class="skills-imgs">
-                <i class="bi bi-filetype-html"></i>
-                <i class="bi bi-filetype-css"></i>
-                <i class="bi bi-filetype-js"></i>
-                <i class="bi bi-git"></i>
-                <i class="bi bi-filetype-jsx"></i>
-            </div>
-        </section>
-
-        <section class="projects-container container hide" id="projects">
-            <div class="projects-text-container">
-                <h1 class="title">Projetos</h1>
-                <p class="text">
-                    Alguns projetos que eu fiz ao longo do meu aprendizado:
-                </p>
-            </div>
-            <div class="projects-menu">
-                <div id="todo-project" class="projects"></div>
-                <div id="car-project" class="projects"></div>
-                <div id="films-project" class="projects"></div>
-                <div id="github-project" class="projects"></div>
-            </div>
-        </section>
-    </main>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>

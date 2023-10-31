@@ -1,0 +1,60 @@
+.projects-text-container {
+  padding-top: 15rem;
+  color: #ede9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.projects-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 4rem;
+  gap: 1rem;
+  padding-bottom: 8rem;
+}
+
+.projects {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #ede9e9;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.projects:nth-child(1) {
+  background-image: url(../../assets/imgs/todo-list.png);
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.projects:nth-child(2) {
+  background-image: url(../../assets/imgs/car-project.png);
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.projects:nth-child(3) {
+  background-image: url(../../assets/imgs/films-project.png);
+
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.projects:nth-child(4) {
+  background-image: url(../../assets/imgs/githuAPI-project.png);
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.projects:hover {
+  filter: none;
+}

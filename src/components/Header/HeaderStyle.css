@@ -1,0 +1,53 @@
+.home-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: end;
+}
+
+.home-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  width: 50%;
+}
+
+.home-text {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  background-color: #ede9e9;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.home-text p {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.home-imgs {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#ship-img {
+  width: 30%;
+  animation: ship 2s infinite alternate;
+}
+
+#aliens-img {
+  width: 70%;
+  animation: aliens 5s infinite;
+}

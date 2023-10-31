@@ -1,0 +1,42 @@
+.ping-pong {
+  margin-top: 10rem;
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.bar1,
+.ball,
+.bar2 {
+  background-color: #ede9e9;
+}
+
+.bar1,
+.bar2 {
+  width: 40px;
+  height: 160px;
+  border-radius: 1rem;
+  position: absolute;
+}
+
+.bar1 {
+  left: 6%;
+  animation: bar1-animation 6s infinite linear;
+}
+
+.bar2 {
+  right: 6%;
+  animation: bar2-animation 6s infinite linear;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  position: absolute;
+  background-color: #ede9e9;
+
+  animation: ball 6s infinite linear;
+}

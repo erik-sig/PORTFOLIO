@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: "Press Start 2P", sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.modal-toggle {
+  display: none;
+}
+
+main {
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Press Start 2P";
+  font-size: 50px;
+  color: #ede9e9;
+}
+
+.subtitle {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  color: #ede9e9;
+}
+
+.text {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #ede9e9;
+}
+
+@media (max-width: 1690px) {
+  .home-text p {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .home-text {
+    padding: 1rem;
+  }
+
+  .home-text p {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+
+  .items h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+
+  .home-text p {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+
+  .items h2 {
+    font-size: 35px;
+  }
+
+  .skills-imgs {
+    font-size: 4rem;
+  }
+
+  .projects {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1078px) {
+  .home-section {
+    flex-direction: column-reverse;
+  }
+
+  .home-text-container {
+    width: 100%;
+  }
+
+  .home-imgs {
+    margin-top: 18rem;
+    width: 100%;
+  }
+
+  .items h2 {
+    font-size: 30px;
+  }
+
+  .ping-pong {
+    display: none;
+  }
+
+  .projects {
+    height: 150px;
+  }
+}
+
+@media (max-width: 852px) {
+  .items h2 {
+    font-size: 20px;
+  }
+  .projects:nth-child(1) {
+    filter: none;
+  }
+
+  .projects:nth-child(2) {
+    filter: none;
+  }
+
+  .projects:nth-child(3) {
+    filter: none;
+  }
+
+  .projects:nth-child(4) {
+    filter: none;
+  }
+}
+
+@media (max-width: 678px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  .items {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #ede9e9;
+    clip-path: circle(0px);
+    transition: 800ms ease-out;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    pointer-events: none;
+  }
+
+  .items-mobile {
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    z-index: 1;
+  }
+
+  .items-mobile i {
+    color: #ede9e9;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: flex;
+    position: fixed;
+    transition: 0.2s ease;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menu-links {
+    display: flex;
+  }
+
+  .projects-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 4rem;
+    gap: 5rem;
+  }
+
+  .projects {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #ede9e9;
+  }
+
+  .modal-btn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 10px;
+  }
+
+  .home-text {
+    padding: 0.5rem;
+  }
+
+  .home-text p {
+    font-size: 10px;
+  }
+
+  .skills-imgs {
+    gap: 2rem;
+  }
+}
+
+/* ACTIVE ANIMATIONS */
+
+.menu-activate {
+  clip-path: circle(1500px at 90% -15%);
+  background-color: black;
+  pointer-events: all;
+}
+
+.menu-press {
+  display: flex;
+}
+
+.menu-press .menu-bar1 {
+  opacity: 0;
+}
+.menu-press .menu-bar2 {
+  transition: 0.2s ease;
+  width: 40px;
+  position: absolute;
+  top: 16px;
+  transform: rotate(135deg);
+}
+.menu-press .menu-bar3 {
+  transition: 0.2s ease;
+  width: 40px;
+  position: absolute;
+  top: 16px;
+  transform: rotate(-135deg);
+}
