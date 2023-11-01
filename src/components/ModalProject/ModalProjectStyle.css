@@ -19,7 +19,7 @@
 
 .technologies {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 1rem;
 }
 
@@ -28,7 +28,7 @@
   text-align: center;
   font-size: 20px;
   line-height: 2rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .modal-options {
@@ -38,7 +38,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
   gap: 2rem;
 }
 

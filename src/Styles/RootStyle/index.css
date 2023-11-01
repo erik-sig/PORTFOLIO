@@ -257,6 +257,7 @@ main {
   }
   .resume {
     font-size: 15px;
+    line-height: 1.5rem;
   }
   .modal-btn {
     font-size: 15px;
