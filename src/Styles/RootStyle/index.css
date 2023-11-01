@@ -176,6 +176,10 @@ main {
     margin: 0;
   }
 
+  .details {
+    height: auto;
+  }
+
   .items {
     position: fixed;
     width: 100vw;
@@ -213,6 +217,17 @@ main {
     transition: 0.2s ease;
   }
 
+  .menu-bar1 {
+    pointer-events: none;
+  }
+  .menu-bar2 {
+    pointer-events: none;
+  }
+
+  .menu-bar3 {
+    pointer-events: none;
+  }
+
   .links {
     display: none;
   }
@@ -235,8 +250,16 @@ main {
     border: 2px solid #ede9e9;
   }
 
+  .modal-container img {
+    width: 70vw;
+    height: 20vh;
+    border: 2px solid #ede9e9;
+  }
+  .resume {
+    font-size: 15px;
+  }
   .modal-btn {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 

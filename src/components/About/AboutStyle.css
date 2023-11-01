@@ -39,8 +39,3 @@
 .skills-imgs i:hover {
   animation: hover-animation 800ms infinite;
 }
-
-.details {
-  height: 20vh;
-  padding: 1rem;
-}

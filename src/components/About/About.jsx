@@ -43,7 +43,7 @@ const About = () => {
     if (className.includes("js")) {
       setDetails((prev) => ({
         ...prev,
-        name: "JAVASCRIPT",
+        name: "JS",
         text: "Utilização de uma boa lógica de programação e das principais funções de JS",
         color: "rgb(239 216 29)",
       }));
