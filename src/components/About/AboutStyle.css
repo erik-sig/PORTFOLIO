@@ -32,10 +32,19 @@
   font-size: 5rem;
 }
 
-.skills-imgs i {
+.skills-imgs img {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
-.skills-imgs i:hover {
+.skills-imgs img:hover {
   animation: hover-animation 800ms infinite;
+}
+
+.details {
+  height: 20vh;
+  padding: 1rem;
 }

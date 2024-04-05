@@ -26,35 +26,10 @@
   transition: 0.5s ease all;
 }
 
-.projects:nth-child(1) {
-  background-image: url(../../assets/imgs/todo-list.png);
-  background-position: center;
-  background-size: cover;
-  filter: blur(2px);
-}
-
-.projects:nth-child(2) {
-  background-image: url(../../assets/imgs/car-project.png);
-  background-position: center;
-  background-size: cover;
-  filter: blur(2px);
-}
-
-.projects:nth-child(3) {
-  background-image: url(../../assets/imgs/films-project.png);
-
-  background-position: center;
-  background-size: cover;
-  filter: blur(2px);
-}
-
-.projects:nth-child(4) {
-  background-image: url(../../assets/imgs/githuAPI-project.png);
-  background-position: center;
-  background-size: cover;
-  filter: blur(2px);
+.projects img {
+  object-fit: contain;
 }
 
 .projects:hover {
-  filter: none;
+  transform: scale(1.1);
 }

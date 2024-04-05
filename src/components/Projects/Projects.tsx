@@ -1,18 +1,16 @@
 import { useInView } from "react-intersection-observer";
 import "./ProjectsStyle.css";
+import projectData from "../../data/projects.json";
+import { useContext } from "react";
+import { ModalContext } from "../../providers/modal";
 
-const Projects = ({ handleModalProject }) => {
-  const projectsArray = [
-    "todo-project",
-    "car-project",
-    "films-project",
-    "github-project",
-  ];
-
+const Projects = () => {
   const inViewObject = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
+
+  const { handleModalVisible } = useContext(ModalContext);
 
   return (
     <>
@@ -32,16 +30,13 @@ const Projects = ({ handleModalProject }) => {
           </p>
         </div>
         <div className='projects-menu'>
-          {projectsArray.map((project) => (
-            <div
-              key={project}
-              id={project}
+          {projectData.projects.map((project) => (
+            <img
+              src={project.img}
+              onClick={() => handleModalVisible(project.id)}
+              key={project.id}
               className='projects'
-              onClick={(e) => {
-                handleModalProject(e.target);
-                console.log(e);
-              }}
-            ></div>
+            ></img>
           ))}
         </div>
       </section>

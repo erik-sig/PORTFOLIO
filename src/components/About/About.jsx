@@ -13,41 +13,16 @@ const About = () => {
   });
 
   const icons = [
-    "bi bi-filetype-html",
-    "bi bi-filetype-css",
-    "bi bi-filetype-js",
     "bi bi-git",
     "bi bi-filetype-jsx",
     "bi bi-filetype-py",
     "bi bi-filetype-scss",
+    "bi bi-filetype-tsx",
   ];
 
   const handleHover = (event) => {
     const className = event.getAttribute("class");
-    if (className.includes("html")) {
-      setDetails((prev) => ({
-        ...prev,
-        name: "HTML",
-        text: "Conhecimento geral de HTML e HTML semântico",
-        color: "rgb(221 75 37)",
-      }));
-    }
-    if (className.includes("css")) {
-      setDetails((prev) => ({
-        ...prev,
-        name: "CSS",
-        text: "Conhecimento geral das estilizações e animações do CSS base",
-        color: "rgb(37 75 221)",
-      }));
-    }
-    if (className.includes("js")) {
-      setDetails((prev) => ({
-        ...prev,
-        name: "JS",
-        text: "Utilização de uma boa lógica de programação e das principais funções de JS",
-        color: "rgb(239 216 29)",
-      }));
-    }
+
     if (className.includes("git")) {
       setDetails((prev) => ({
         ...prev,
@@ -60,7 +35,7 @@ const About = () => {
       setDetails((prev) => ({
         ...prev,
         name: "REACT",
-        text: "Tecnologia que estou aprendendo atualmente. Possuo um conhecimento geral intermediário e sobre a utilização dos principais Hooks, API´s, componentização, além de querer começar a utlizar StyledComponents",
+        text: "Tecnologia que possuo conhecimento avançado das principais tecnologias, como hooks, componentização e funcionamento geral.",
         color: "rgb(102 219 251)",
       }));
     }
@@ -80,6 +55,15 @@ const About = () => {
         color: "rgb(206 107 156)",
       }));
     }
+    if (className.includes("tsx")) {
+      setDetails((prev) => ({
+        ...prev,
+        name: "TypeScript",
+        text: "Conhecimento avançado da tecnologia que permite uma boa manuntenção e prática ao código limpo e organizado",
+        color: "rgb(55 124 200)",
+      }));
+    }
+
     setIsHover(true);
   };
 

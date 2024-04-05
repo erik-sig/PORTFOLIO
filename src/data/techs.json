@@ -1,0 +1,46 @@
+{
+    "technologies": [
+        {
+            "id": "python",
+            "name": "PYTHON",
+            "text": "Conhecimento intermediário da tecnologia, focando principalmente em análise de dados com bibliotecas como PANDAS e automotização de atividades.",
+            "color": "#366c9c",
+            "img": "/src/assets/icons/python-icon.png"
+        },
+        {
+            "id": "next",
+            "name": "NEXTJS",
+            "text": "Bom conhecimento do framework, tendo em vista a otimização do site usando CSR e SSR, sistema de API próprio e metadados dinâmicos para SEO.",
+            "color": "#fff",
+            "img": "/src/assets/icons/nextjs-icon.png"
+        },
+        {
+            "id": "react",
+            "name": "REACT",
+            "text": "Conhecimento avançado sobre a utilização dos principais Hooks, API´s, componentização e mais.",
+            "color": "rgb(102 219 251)",
+            "img": "/src/assets/icons/react-icon.png"
+        },
+        {
+            "id": "tailwind",
+            "name": "TAILWINDCSS",
+            "text": "Bom conhecimento desse framework extremamente prático e intuitivo que acelera muito os projetos e trabalha muito bem com responsividade e acessibilidade.",
+            "color": "#38bdf8",
+            "img": "/src/assets/icons/tailwind-icon.png"
+        },
+        {
+            "id": "git",
+            "name": "GIT",
+            "text": "Conhecimento sobre GIT Bash e GIT Desktop.",
+            "color": "rgb(232 77 49)",
+            "img": "/src/assets/icons/git-icon.png"
+        },
+        {
+            "id": "typescript",
+            "name": "TYPESCRIPT",
+            "text": "Conhecimento avançado de Typescript dada a importância que ele atribui aos projetos com sua fácil manutenção e organização.",
+            "color": "#082e5e",
+            "img": "/src/assets/icons/typescript-icon.png"
+        }
+    ]
+}

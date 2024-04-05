@@ -146,26 +146,34 @@ main {
   .items h2 {
     font-size: 20px;
   }
-  .projects:nth-child(1) {
-    filter: none;
+  .modal-container {
+    padding: 1rem;
+    gap: 2rem;
   }
 
-  .projects:nth-child(2) {
-    filter: none;
+  .resume {
+    display: none;
+  }
+  .modal-options {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
-  .projects:nth-child(3) {
-    filter: none;
-  }
-
-  .projects:nth-child(4) {
-    filter: none;
+  .modal-btn {
+    font-size: 20px;
+    color: #ede9e9;
+    cursor: pointer;
+    padding: 1rem;
   }
 }
 
 @media (max-width: 678px) {
   aside {
     display: none;
+  }
+  .modal-container img {
+    width: 360px;
+    border: 2px solid #ede9e9;
   }
 
   main {
@@ -174,10 +182,6 @@ main {
 
   nav {
     margin: 0;
-  }
-
-  .details {
-    height: auto;
   }
 
   .items {
@@ -217,17 +221,6 @@ main {
     transition: 0.2s ease;
   }
 
-  .menu-bar1 {
-    pointer-events: none;
-  }
-  .menu-bar2 {
-    pointer-events: none;
-  }
-
-  .menu-bar3 {
-    pointer-events: none;
-  }
-
   .links {
     display: none;
   }
@@ -248,19 +241,6 @@ main {
     width: 100%;
     height: 300px;
     border: 2px solid #ede9e9;
-  }
-
-  .modal-container img {
-    width: 70vw;
-    height: 20vh;
-    border: 2px solid #ede9e9;
-  }
-  .resume {
-    font-size: 15px;
-    line-height: 1.5rem;
-  }
-  .modal-btn {
-    font-size: 15px;
   }
 }
 

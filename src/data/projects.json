@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": "dev-control",
+            "img": "/src/assets/imgs/dev-control.png",
+            "technologies": "NextJS",
+            "colorTechnologies": "#fff",
+            "text": "Projeto com o objetivo de ser um help desk, foi montado com Next, TypeScript, Tailwind, MongoDB com Prisma e o sistema de autenticação NextAuth.",
+            "repository": "https://github.com/erik-sig/Site-filmes",
+            "site": "https://dev-controle-plum.vercel.app"
+        },
+        {
+            "id": "to-list-ts",
+            "img": "/src/assets/imgs/todo-list-ts.png",
+            "technologies": "React",
+            "colorTechnologies": "rgb(102 219 251)",
+            "text": "Projeto com o objetivo de ser uma lista de tarefas montado com React, TypeScript.",
+            "repository": "https://github.com/erik-sig/todo-react-ts",
+            "site": "https://todo-react-ts-nine.vercel.app"
+        },
+        {
+            "id": "next-gameProject",
+            "img": "/src/assets/imgs/game-project.png",
+            "technologies": "NextJS",
+            "colorTechnologies": "#fff",
+            "text": "Um dos primeiros projetos com Next com o intuito de ser uma galeria de games, ele foi construído com TypeScript, uso de APIS externas com o próprio fetch usando de revalidates para o cache e voltado muito para o SEO e os metadados dinâmicos do Next.",
+            "repository": "https://github.com/erik-sig/projectGames",
+            "site": "https://projeto-games-next.vercel.app"
+        },
+        {
+            "id": "films-project",
+            "img": "/src/assets/imgs/films-project.png",
+            "technologies": "JavaScript",
+            "colorTechnologies": "rgb(239 216 29)",
+            "text": "Um dos primeiros projetos executados, trata-se de uma lista de filmes, na qual possui apenas HTML, CSS e JavaScript para execução de ações e salvamentos em LocalStorage.",
+            "repository": "https://github.com/erik-sig/Site-filmes",
+            "site": "https://site-filmes-luwp27y0e-erik-sig.vercel.app"
+        },
+        {
+            "id": "github-project",
+            "img": "/src/assets/imgs/githuAPI-project.png",
+            "technologies": "React",
+            "colorTechnologies": "rgb(102 219 251)",
+            "text": "Projeto com o intuito de buscas na API do github, foi montado com React, Axios e Sass para estilização.",
+            "repository": "https://github.com/erik-sig/GitHubAPI",
+            "site": "https://git-hub-api-gamma.vercel.app"
+        }
+    ]
+}
