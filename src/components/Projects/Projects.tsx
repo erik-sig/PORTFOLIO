@@ -4,8 +4,6 @@ import projectData from "../../data/projects.json";
 import { useContext } from "react";
 import { ModalContext } from "../../providers/modal";
 
-import img from '../../../public/static/images/films-project.png'
-
 const Projects = () => {
   const inViewObject = useInView({
     triggerOnce: true,
