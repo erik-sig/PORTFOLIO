@@ -38,7 +38,7 @@
         },
         {
             "id": "github-project",
-            "img": "/static/images/githuAPI-project.png",
+            "img": "/static/images/git-hub-finder-project.png",
             "technologies": "React",
             "colorTechnologies": "rgb(102 219 251)",
             "text": "Projeto com o intuito de buscas na API do github, foi montado com React, Axios e Sass para estilização.",
