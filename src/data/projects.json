@@ -42,8 +42,8 @@
             "technologies": "React",
             "colorTechnologies": "rgb(102 219 251)",
             "text": "Projeto com o intuito de buscas na API do github, foi montado com React, Axios e Sass para estilização.",
-            "repository": "https://github.com/erik-sig/GitHubAPI",
-            "site": "https://git-hub-api-gamma.vercel.app"
+            "repository": "https://github.com/erik-sig/newGitHubProject",
+            "site": "https://git-hub-finder-react.vercel.app"
         },
         {
             "id": "coffee-project",
